@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valentia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+</head>
+<style>
+    #first {
+        /* background-image: url('./img/super-me.png') */
+        background-color: white
+    }
+
+    .bg-gradient-blue {
+        background: linear-gradient(to left, #96deda, #50c9c3) !important;
+    }
+
+    .bg-gradient-blue a {
+        color: white !important
+    }
+
+    .bg-gradient-nega {
+        background: linear-gradient(to left, #ee9ca7, #ffdde1) !important;
+    }
+</style>
+
+<body>
+    <div uk-sticky="animation: uk-animation-fade; sel-target: .uk-navbar-container; cls-active: bg-gradient-blue; cls-inactive: uk-navbar-transparent; top: 10">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar style="z-index:2">
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <a href="./home.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="./project1.html">Project-1</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section id="first" class="uk-background-cover uk-section uk-cover-container uk-animation-scale-down" uk-height-viewport
+        style="margin-top: -80px;display:flex; align-items: center">
+        <div class="uk-container">
+            <h1 class="uk-text-center">Research Portfolio</h1>
+            <h3 class="uk-text-center">
+                <i>Pursue passion, Success will follow</i>
+            </h3>
+            <h4 class="uk-text-center">I-CHEN KAO</h4>
+            <p class="uk-text-center">
+                <a href="#my-work" uk-icon="icon:chevron-down; ratio: 2" style="z-index:1"></a>
+
+            </p>
+        </div>
+
+
+    </section>
+
+    <section id="my-work" class="bd-index-fullscreen hero is-fullheight is-light bg-gradient-nega ">
+        <!-- <div class="hero-head">
+          <div class="container">
+            <div class="tabs is-centered">
+              <ul>
+                <li><a></a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="uk-text-center uk-text-bold" style="color:white" style="display:block">My Work</h2>
+                <div class="" style="">
+                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container">
+                            <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+                            <canvas width="600" height="400"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Media Left</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                            <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+                            <canvas width="600" height="400"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Media Right</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container">
+                            <img src="https://getuikit.com/docs/images/light.jpg" alt="" uk-cover>
+                            <canvas width="600" height="400"></canvas>
+                        </div>
+                        <div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Media Left</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--       
+        <div class="hero-foot">
+          <div class="container">
+            <div class="tabs is-centered">
+              <ul>
+                <li><a>And this at the bottom</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
